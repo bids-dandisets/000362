@@ -1,0 +1,42 @@
+{
+    "onset": {
+        "Description": "Onset of the event, measured from the beginning of the acquisition.",
+        "Units": "s"
+    },
+    "duration": {
+        "Description": "Duration of the event (measured from onset).",
+        "Units": "s"
+    },
+    "angle": {
+        "Description": "angle of drifting grating stimulus in degrees"
+    },
+    "cycles_per_second": {
+        "Description": "cycles per second of drifting grating stimulus"
+    },
+    "cycles_per_degree": {
+        "Description": "cycles per degree of drifting grating stimulus"
+    },
+    "amplitude": {
+        "Description": "amplitude of drifting grating stimulus"
+    },
+    "movie_number": {
+        "Description": "during which movie this visual stimulus happened"
+    },
+    "nwb_table": {
+        "Description": "The name of the NWB table from which this event was extracted.",
+        "Levels": {
+            "trials": "The 'trials' table in the NWB file.",
+            "epochs": "The 'epochs' table in the NWB file."
+        },
+        "HED": {
+            "trials": "Experimental-trial",
+            "epochs": "Time-block"
+        }
+    },
+    "trials": {
+        "Description": "experimental trials"
+    },
+    "epochs": {
+        "Description": "experimental epochs"
+    }
+}
