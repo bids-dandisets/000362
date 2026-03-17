@@ -6,7 +6,7 @@ Valid keys in each object include `"URL"`, `"DOI"` (see
 `"Version"` with
 [string](https://www.w3schools.com/js/js_json_datatypes.asp)
 values.
-
+ - rules.dataset_metadata.dataset_description
 
 	Please visit https://neurostars.org/search?q=JSON_KEY_RECOMMENDED for existing conversations about this issue.
 
@@ -15,28 +15,83 @@ values.
 		/dataset_description.json - must be array
 
 Field description: List of individuals who contributed to the creation/curation of the dataset.
-
+ - rules.dataset_metadata.dataset_description
 		/dataset_description.json - must be array
 
 Field description: List of individuals who contributed to the creation/curation of the dataset.
-
+ - rules.dataset_metadata.dataset_authors
 
 	Please visit https://neurostars.org/search?q=JSON_SCHEMA_VALIDATION_ERROR for existing conversations about this issue.
 
 	[ERROR] TSV_VALUE_INCORRECT_TYPE A value in a column did not match the acceptable type for that column headers specified format.
 		session_id
-		/sub-478342/sub-478342_sessions.tsv - 'ses-jGCaMP8f_ANM478342_cell01'
-		/sub-478407/sub-478407_sessions.tsv - 'ses-jGCaMP8f_ANM478407_cell01'
-
-		9 more files with the same issue
+		/sub-478342/sub-478342_sessions.tsv - 'ses-jGCaMP8f_ANM478342_cell01' - rules.tabular_data.modality_agnostic.Sessions
+		/sub-478407/sub-478407_sessions.tsv - 'ses-jGCaMP8f_ANM478407_cell01' - rules.tabular_data.modality_agnostic.Sessions
+		/sub-472179/sub-472179_sessions.tsv - 'ses-jGCaMP8m_ANM472179_cell01' - rules.tabular_data.modality_agnostic.Sessions
+		/sub-479115/sub-479115_sessions.tsv - 'ses-jGCaMP8m_ANM479115_cell07' - rules.tabular_data.modality_agnostic.Sessions
+		/sub-471993/sub-471993_sessions.tsv - 'ses-jGCaMP8f_ANM471993_cell01' - rules.tabular_data.modality_agnostic.Sessions
+		/sub-478411/sub-478411_sessions.tsv - 'ses-jGCaMP8f_ANM478411_cell01' - rules.tabular_data.modality_agnostic.Sessions
+		/sub-471994/sub-471994_sessions.tsv - 'ses-jGCaMP8f_ANM471994_cell01' - rules.tabular_data.modality_agnostic.Sessions
+		/sub-478349/sub-478349_sessions.tsv - 'ses-jGCaMP8f_ANM478349_cell01' - rules.tabular_data.modality_agnostic.Sessions
+		/sub-472180/sub-472180_sessions.tsv - 'ses-jGCaMP8m_ANM472180_cell01' - rules.tabular_data.modality_agnostic.Sessions
+		/sub-478348/sub-478348_sessions.tsv - 'ses-jGCaMP8f_ANM478348_cell01' - rules.tabular_data.modality_agnostic.Sessions
+		/sub-478410/sub-478410_sessions.tsv - 'ses-jGCaMP8f_ANM478410_cell01' - rules.tabular_data.modality_agnostic.Sessions
 
 	Please visit https://neurostars.org/search?q=TSV_VALUE_INCORRECT_TYPE for existing conversations about this issue.
 
 	[ERROR] NOT_INCLUDED Files with such naming scheme are not part of BIDS specification. This error is most commonly caused by typos in file names that make them not BIDS compatible. Please consult the specification and make sure your files are named correctly. If this is not a file naming issue (for example when including files not yet covered by the BIDS specification) you should include a ".bidsignore" file in your dataset (see https://github.com/bids-standard/bids-validator#bidsignore for details). Please note that derived (processed) data should be placed in /derivatives folder and source data (such as DICOMS or behavioural logs in proprietary formats) should be placed in the /sourcedata folder.
 		/sub-478342/ses-jGCaMP8f_ANM478342_cell01/
 		/sub-478342/ses-jGCaMP8f_ANM478342_cell04/
-
-		50 more files with the same issue
+		/sub-478342/ses-jGCaMP8f_ANM478342_cell03/
+		/sub-478407/ses-jGCaMP8f_ANM478407_cell03/
+		/sub-478407/ses-jGCaMP8f_ANM478407_cell05/
+		/sub-478407/ses-jGCaMP8f_ANM478407_cell06/
+		/sub-478407/ses-jGCaMP8f_ANM478407_cell02/
+		/sub-478407/ses-jGCaMP8f_ANM478407_cell04/
+		/sub-478407/ses-jGCaMP8f_ANM478407_cell07/
+		/sub-478407/ses-jGCaMP8f_ANM478407_cell01/
+		/sub-472179/ses-jGCaMP8m_ANM472179_cell02/
+		/sub-472179/ses-jGCaMP8m_ANM472179_cell05/
+		/sub-472179/ses-jGCaMP8m_ANM472179_cell04/
+		/sub-472179/ses-jGCaMP8m_ANM472179_cell01/
+		/sub-472179/ses-jGCaMP8m_ANM472179_cell03/
+		/sub-479115/ses-jGCaMP8m_ANM479115_cell07/
+		/sub-471993/ses-jGCaMP8f_ANM471993_cell02/
+		/sub-471993/ses-jGCaMP8f_ANM471993_cell01/
+		/sub-471993/ses-jGCaMP8f_ANM471993_cell03/
+		/sub-478411/ses-jGCaMP8f_ANM478411_cell03/
+		/sub-478411/ses-jGCaMP8f_ANM478411_cell06/
+		/sub-478411/ses-jGCaMP8f_ANM478411_cell04/
+		/sub-478411/ses-jGCaMP8f_ANM478411_cell05/
+		/sub-478411/ses-jGCaMP8f_ANM478411_cell01/
+		/sub-478411/ses-jGCaMP8f_ANM478411_cell02/
+		/sub-471994/ses-jGCaMP8f_ANM471994_cell01/
+		/sub-471994/ses-jGCaMP8f_ANM471994_cell03/
+		/sub-471994/ses-jGCaMP8f_ANM471994_cell08/
+		/sub-471994/ses-jGCaMP8f_ANM471994_cell02/
+		/sub-471994/ses-jGCaMP8f_ANM471994_cell04/
+		/sub-471994/ses-jGCaMP8f_ANM471994_cell06/
+		/sub-471994/ses-jGCaMP8f_ANM471994_cell07/
+		/sub-471994/ses-jGCaMP8f_ANM471994_cell05/
+		/sub-478349/ses-jGCaMP8f_ANM478349_cell04/
+		/sub-478349/ses-jGCaMP8f_ANM478349_cell07/
+		/sub-478349/ses-jGCaMP8f_ANM478349_cell01/
+		/sub-478349/ses-jGCaMP8f_ANM478349_cell05/
+		/sub-478349/ses-jGCaMP8f_ANM478349_cell03/
+		/sub-478349/ses-jGCaMP8f_ANM478349_cell02/
+		/sub-478349/ses-jGCaMP8f_ANM478349_cell06/
+		/sub-472180/ses-jGCaMP8m_ANM472180_cell06/
+		/sub-472180/ses-jGCaMP8m_ANM472180_cell04/
+		/sub-472180/ses-jGCaMP8m_ANM472180_cell02/
+		/sub-472180/ses-jGCaMP8m_ANM472180_cell01/
+		/sub-472180/ses-jGCaMP8m_ANM472180_cell03/
+		/sub-472180/ses-jGCaMP8m_ANM472180_cell05/
+		/sub-478348/ses-jGCaMP8f_ANM478348_cell01/
+		/sub-478410/ses-jGCaMP8f_ANM478410_cell05/
+		/sub-478410/ses-jGCaMP8f_ANM478410_cell03/
+		/sub-478410/ses-jGCaMP8f_ANM478410_cell06/
+		/sub-478410/ses-jGCaMP8f_ANM478410_cell04/
+		/sub-478410/ses-jGCaMP8f_ANM478410_cell01/
 
 	Please visit https://neurostars.org/search?q=NOT_INCLUDED for existing conversations about this issue.
 
