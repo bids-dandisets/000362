@@ -1,8 +1,8 @@
-session_id
-ses-jGCaMP8f+ANM478407+cell01
-ses-jGCaMP8f+ANM478407+cell02
-ses-jGCaMP8f+ANM478407+cell03
-ses-jGCaMP8f+ANM478407+cell04
-ses-jGCaMP8f+ANM478407+cell05
-ses-jGCaMP8f+ANM478407+cell06
-ses-jGCaMP8f+ANM478407+cell07
+session_id	original_session_id
+ses-jGCaMP8f+ANM478407+cell01	ses-jGCaMP8f_ANM478407_cell01
+ses-jGCaMP8f+ANM478407+cell02	ses-jGCaMP8f_ANM478407_cell02
+ses-jGCaMP8f+ANM478407+cell03	ses-jGCaMP8f_ANM478407_cell03
+ses-jGCaMP8f+ANM478407+cell04	ses-jGCaMP8f_ANM478407_cell04
+ses-jGCaMP8f+ANM478407+cell05	ses-jGCaMP8f_ANM478407_cell05
+ses-jGCaMP8f+ANM478407+cell06	ses-jGCaMP8f_ANM478407_cell06
+ses-jGCaMP8f+ANM478407+cell07	ses-jGCaMP8f_ANM478407_cell07
