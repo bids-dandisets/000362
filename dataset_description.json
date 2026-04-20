@@ -4,7 +4,9 @@
     "HEDVersion": "8.3.0",
     "Description": "We tested the jGCaMP8 sensors in L2/3 pyramidal neurons of mouse primary visual cortex. We made a craniotomy over V1 and infected neurons with adeno-associated virus (AAV2/1-hSynapsin-1) encoding jGCaMP8 variants (s/m/f), jGCaMP7f, or XCaMP-Gf. 18-80 days after the virus injection, the mouse was anesthetized, and we surgically removed the cranial window and performed durotomy. The craniotomy was filled with 10-15 \u03bcL of 1.5% agarose, and a D-shaped coverslip was secured on top to suppress brain motion and leave access to the brain on the lateral side of the craniotomy. Then mice were lightly anesthetized and mounted under a custom two-photon microscope. Full-field, high-contrast drifting gratings were presented in each of eight directions to the contralateral eye. Two-photon imaging (122 Hz) was performed of L2/3 somata and neuropil combined with loose-seal, cell-attached electrophysiological recording of a single neuron in the field of view. \nThis dataset contains the raw 2-photon videos, for registered movies see: https://dandiarchive.org/dandiset/000168/",
     "DatasetType": "raw",
-    "Authors": null,
+    "Authors": [
+        "R\u00f3zsa, M\u00e1rton"
+    ],
     "License": "CC-BY-4.0",
     "GeneratedBy": [
         {
